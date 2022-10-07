@@ -22,7 +22,6 @@ const Products = () => {
                     <ProductsList products={products} />
                 </div>
             </div>
-
         </div>
     );
 }
