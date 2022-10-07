@@ -1,0 +1,54 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    border-bottom: 1px solid #E1E1E1;
+    padding: 4px 0;
+}
+
+.header img {
+    border-radius: 100px;
+    margin: 19px 19px;
+    transition: all 0.9s;
+    cursor: pointer;
+    box-shadow: 6px 2px 10px 1px #75727f9c;
+}
+
+.header img:hover {
+    -webkit-filter: drop-shadow(10px 5px 1px #e1e1e1);
+    filter: drop-shadow(10px 6px 3px #75727fb2);
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menu li:nth-of-type(1) {
+    margin-left: 0;
+}
+
+.menu li:nth-last-of-type(1) {
+    margin-right: 0;
+}
+
+.menu li a {
+    color: #75727F;
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: none;
+    padding-bottom: 4px;
+
+}
+
+.menu li a:hover,
+.menu li.active a {
+    border-bottom: 2px solid #428CCB;
+}
+
+.title {
+    color: #75727F;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
