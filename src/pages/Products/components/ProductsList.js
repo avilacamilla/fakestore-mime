@@ -8,6 +8,7 @@ import { BorderColor, Delete } from '@mui/icons-material';
 import Rating from './Rating';
 import Category from './Category';
 import "./ProductsList.css";
+import { red } from '@mui/material/colors';
 
 
 function createData(
@@ -60,8 +61,8 @@ export default (props) => {
                                 <Rating rating={row.rating} />
                             </TableCell>
                             <TableCell>
-                                <BorderColor />
-                                <Delete />
+                                <BorderColor className="material-icons" style={{ color: "#9addee" }} />
+                                <Delete className="material-icons" style={{ color: "#f6cce0" }}/>
                             </TableCell>
                         </TableRow>
                     ))}
