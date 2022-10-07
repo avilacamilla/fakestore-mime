@@ -7,6 +7,7 @@ import TableRow from '@mui/material/TableRow';
 import { BorderColor, Delete } from '@mui/icons-material';
 import Rating from './Rating';
 import Category from './Category';
+import "./ProductsList.css";
 
 
 function createData(
@@ -36,7 +37,7 @@ export default (props) => {
 
     return (
         <TableContainer>
-            <Table>
+            <Table className="table">
                 <TableHead>
                     <TableRow>
                         <TableCell>Produto</TableCell>
@@ -48,9 +49,9 @@ export default (props) => {
                 <TableBody>
                     {rows.map((row) => (
                         <TableRow key={row.id}>
-                            <TableCell>
+                            <TableCell className="product">
                                 <img src={row.image} width="45" height="45" className="product-image" />
-                                {row.title}
+                                <span>{row.title}</span>
                             </TableCell>
                             <TableCell>
                                 <Category category={row.category}/>
