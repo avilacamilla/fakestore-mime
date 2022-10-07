@@ -13,8 +13,8 @@ export default (props) => {
             alignItems="center"
             spacing={2}>
                 <h1>Produtos <span className="total">25 cadastrados</span></h1>
-                <Button variant="contained" startIcon={<Add />}>
-                    Adicionar Produto
+                <Button className='button' startIcon={<Add />} >
+                    Adicionar produto
                 </Button>
             </Stack>   
         </div>        
