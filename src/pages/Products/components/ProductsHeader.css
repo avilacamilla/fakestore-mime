@@ -1,0 +1,22 @@
+.products-header {
+    padding: 20px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.products-header h1 {
+    color: #75727F;
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+
+.products-header h1 .total {
+    background-color: #F9FAFC;
+    color: #75727F;
+    font-size: 0.875rem;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 2px 6px;
+    margin-left: 8px;
+    font-weight: 400;
+}
+
