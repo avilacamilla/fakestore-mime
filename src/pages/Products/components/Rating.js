@@ -1,5 +1,5 @@
 import { Star } from "@mui/icons-material";
-import "./Rating.css";
+import "./Rating.css"
 
 export default (props) => {
     const totalRating = Math.round(props.rating.rate);
@@ -12,7 +12,7 @@ export default (props) => {
     return (
         <span className="rating">
             {rating.map((value, index) => {
-               return <Star key={index} />   
+               return <Star key={index} sx={{ fontSize: 18 }} />   
             })}   
         </span>
     );
