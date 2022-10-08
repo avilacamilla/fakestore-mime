@@ -1,8 +1,18 @@
-# Getting Started with Create React App
+# Mime FakeStore
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esse projeto foi realizado como teste para o processo seletivo de Desenvolvedor Front-end do Grupo Soitic. 
+A propósta era desenvolver um pequeno sistema que exibisse uma listagem de produtos a partir de uma API utilizando axios ou fetch. O frame front-end utilizado para o mesmo foi ReactJS.
+
+## Layout da aplicação
+<div align="center">
+<img src="https://user-images.githubusercontent.com/93070498/194645885-323e440d-d364-4719-9a00-b0f7f8b7dc38.png" />
+</div>
+
+
 
 ## Available Scripts
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
