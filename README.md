@@ -1,6 +1,6 @@
 # Mime FakeStore
 
-Esse projeto foi realizado como teste para o processo seletivo de Desenvolvedor Front-end do Grupo Soitic. 
+Esse projeto foi realizado como teste para o processo seletivo de Desenvolvedor Front-end. 
 A propósta era desenvolver um pequeno sistema que exibisse uma listagem de produtos a partir de uma API utilizando axios ou fetch. O frame front-end utilizado para o mesmo foi ReactJS.
 
 ## Layout da aplicação
